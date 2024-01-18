@@ -1,9 +1,9 @@
 #include "sort.h"
 /**
- *bubble_sort - sort an array using bubble methd
- *@array: points to an array
- *@size: size of the array
- */
+*bubble_sort - sort an array using bubble methd
+*@array: points to an array
+*@size: size of the array
+*/
 void bubble_sort(int *array, size_t size)
 {
 	/*Declarations*/
