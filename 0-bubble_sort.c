@@ -6,12 +6,11 @@
 */
 void bubble_sort(int *array, size_t size)
 {
-	/*Declarations*/
 	unsigned long int i = 0, tmp, j = 0, count;
-	/*check inputs*/
+
 	if (array == NULL || size < 2)
 		return;
-	/*sort the array using bubble method*/
+
 	for (i = 0; i < size - 1; i++)
 	{
 		count = 0;
