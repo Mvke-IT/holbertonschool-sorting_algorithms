@@ -15,6 +15,27 @@ void swap_ints(int *a, int *b)
 }
 
 /**
+* print_list - Prints a list of integers
+*
+* @list: The list to be printed
+*/
+void print_list(const listint_t *list)
+{
+	int i;
+	
+	i = 0;
+	while (list)
+		{
+			if (i > 0)
+				printf(", ");
+			printf("%d", list->n);
+			++i;
+			list = list->next;
+		}
+	printf("\n");
+}
+
+/**
  * bubble_sort - Sort an array of integers in ascending order.
  * @array: An array of integers to sort.
  * @size: The size of the array.
